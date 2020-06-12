@@ -47,7 +47,7 @@ A implementação de um flowID permite identificar qual é a funcionalidade de n
 A implementação de um correlationID permite relacionar uma mesma chamada passando em diversas aplicações/sistemas diferentes, conseguindo fornecer um mapeamento de ponta-a-ponta. Por exemplo, uma aplicação client gera uma chamada à API, neste momento fornecendo o correlationID gerado pelo consumidor, o qual é repassado em todas as camadas/microserviços que a api precisa para realizar determinada funcionalidade. É importante lembrar que o header x-empresa-correlationID deve sempre ser diferente a cada requisição. Recomenda-se mandar um uuid version 4 nesse campo como: a1e64241-7fdb-4d05-a7f6-c44febcdd8d9
 
 ## Métodos
-Requisições para a API devem seguir os padrões dos [Métodos HTTP](https://confluencecorp.ctsp.prod.cloud.ihf/pages/viewpage.action?pageId=52626164) dos quais são atualizados pelo time de Governança de API, que segue os padrões de mercado de modelagem de API Rest.
+Requisições para a API devem seguir os padrões dos [Métodos HTTP](url) dos quais são atualizados pelo time de Governança de API, que segue os padrões de mercado de modelagem de API Rest.
 
 
 ## Desenho dos Fluxos
